@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="regilogo.jpg">
+</head>
+<body>
+    <center>
+        <h1 width="100%" >Registration Form Task</h1>
+        <hr>
+        <table border="2" cellpadding="10" cellspacing="10" width="500" height="600" bgcolor="lightgrey" >
+            <caption><b>Registration Form</b></caption>
+            <tr>
+                <td>
+                    <form action="https://formsubmit.co/temporary10k@gmail.com" method="POST">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" minlength="3" maxlength="50" placeholder="Enter your name" autofocus required><br><br>
+
+                        <label for="surname">Surname:</label><br>
+                        <input id="surname" name="surname" minlength="0" maxlength="10" placeholder="Enter your surname" required><br><br>
+
+                        <label for="dateofbirth">Date Of Birth:</label><br>
+                        <input type="date" id="dateofbirth" name="dateofbirth"><br><br>
+                        
+                        <label for="address">Address:</label><br>
+                        <textarea id="address" name="address" minlength="10" maxlength="200" placeholder="Enter complete address" required></textarea><br><br>
+
+                        <label for="email">Gmail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter Gmail" required><br><br>
+                        <label for="phone">Phone number:</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10 digits" required><br><br>
+
+                        <label for="dateandmonth">Select date and month:</label><br>
+                        <input type="datetime-local" id="dateandmonth" name="dateandmonth" required><br><br>
+
+                        <label for="week">Select week:</label><br>
+                        <input type="week" id="week" name="week" required><br><br>
+
+                        <label for="age">Age:</label><br>
+                        <input type="number" id="age" name="age" min="0" max="100" step="1" required><br><br>
+
+                        <b>What is your favorite skill in front-end?</b><br>
+                        <label><input  type="radio" name="skill" value="HTML" required> HTML</label><br>
+                        <label><input type="radio" name="skill" value="CSS"> CSS</label><br>
+                        <label><input type="radio" name="skill" value="Bootstrap"> Bootstrap</label><br>
+                        <label><input type="radio" name="skill" value="React"> React</label><br>
+                        <label><input type="radio" name="skill" value="JavaScript"> JavaScript</label><br><br>
+                        
+                        
+                        <label for="per">How much you perfect<b>(0%-100%):</b> </label>
+                        <br>
+                        <input type="range" name="range" id="per" >
+                        <br>
+                        <br>
+                        <label for="file">Upload your adhar:</label><br>
+                        <input type="file" id="file" name="file" multiple required><br><br>
+
+                        
+                            <br>
+                            <button type="reset">Reset</button><br>
+                            <br>
+                            <center>
+                        <input type="checkbox" id="remember">
+                        <label for="remember"><b>Remember me</b></label><br><br>
+                        
+                        <button type="submit"><b>Sign Up</b></button>
+                        <br>
+                       
+                        </center>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
